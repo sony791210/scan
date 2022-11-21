@@ -1,0 +1,5 @@
+
+sonarqube/data/
+jmeter/report/
+/jmeter/tests/
+sonarqube/logs/

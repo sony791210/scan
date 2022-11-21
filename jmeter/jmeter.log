@@ -1,0 +1,255 @@
+2022-11-21 03:11:05,275 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-21 03:11:05,328 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+2022-11-21 03:11:05,329 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+2022-11-21 03:11:05,330 INFO o.a.j.JMeter: Setting System property: log4j2.formatMsgNoLookups=true
+2022-11-21 03:11:05,330 INFO o.a.j.JMeter: Setting System property: log_level.jmeter=DEBUG
+2022-11-21 03:11:05,345 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: Version 5.5
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: java.version=1.8.0_275
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: os.name=Linux
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: os.arch=amd64
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: os.version=5.15.0-53-generic
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: java.awt.headless=true
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: Max memory     =4353687552
+2022-11-21 03:11:05,346 INFO o.a.j.JMeter: Available Processors =4
+2022-11-21 03:11:05,368 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-21 03:11:05,368 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-21 03:11:05,368 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
+2022-11-21 03:11:05,368 INFO o.a.j.JMeter: user.dir  =/root/scan/jmeter/docker-jmeter
+2022-11-21 03:11:05,368 INFO o.a.j.JMeter: PWD       =/root/scan/jmeter/docker-jmeter
+2022-11-21 03:11:05,369 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: ecde786a7143 FullName: ecde786a7143
+2022-11-21 03:11:05,433 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/root/scan/jmeter/docker-jmeter/report'
+2022-11-21 03:11:05,443 INFO o.a.j.s.FileServer: Default base='/root/scan/jmeter/docker-jmeter'
+2022-11-21 03:11:05,445 INFO o.a.j.s.FileServer: Set new base='/root/scan/jmeter/docker-jmeter'
+2022-11-21 03:11:06,020 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-11-21 03:11:06,104 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-11-21 03:11:06,129 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-11-21 03:11:06,162 INFO o.a.j.s.SaveService: Loading file: /root/scan/jmeter/docker-jmeter/test.jmx
+2022-11-21 03:11:06,369 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-21 03:11:06,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-21 03:11:06,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-21 03:11:06,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-21 03:11:06,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-11-21 03:11:06,370 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-11-21 03:11:07,487 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-11-21 03:11:07,523 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-11-21 03:11:07,523 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: /root/scan/jmeter/docker-jmeter/test.jtl
+2022-11-21 03:11:07,524 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/apache-jmeter-5.5/bin/reportgenerator.properties
+2022-11-21 03:11:07,526 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-11-21 03:11:07,541 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-11-21 03:11:07,547 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-11-21 03:11:07,563 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,564 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,564 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,564 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,564 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,565 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,565 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,566 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,566 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,566 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-21 03:11:07,569 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-21 03:11:07,569 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-11-21 03:11:07,569 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-11-21 03:11:07,570 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-21 03:11:07,571 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-11-21 03:11:07,571 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-11-21 03:11:07,597 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-11-21 03:11:07,598 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-21 03:11:07,599 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-21 03:11:07,615 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-11-21 03:11:07,616 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-11-21 03:11:08,364 INFO o.a.j.JMeter: Running test (1668996668364)
+2022-11-21 03:11:08,703 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 執行緒群組
+2022-11-21 03:11:08,703 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group 執行緒群組.
+2022-11-21 03:11:08,703 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-21 03:11:08,704 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=1 delayedStart=false
+2022-11-21 03:11:08,756 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-1
+2022-11-21 03:11:08,772 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-2
+2022-11-21 03:11:08,801 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-3
+2022-11-21 03:11:08,819 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-4
+2022-11-21 03:11:08,834 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-11-21 03:11:08,834 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-11-21 03:11:08,843 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-5
+2022-11-21 03:11:08,866 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-6
+2022-11-21 03:11:08,889 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ecde786a7143
+2022-11-21 03:11:08,890 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-7
+2022-11-21 03:11:08,909 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-11-21 03:11:08,912 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-8
+2022-11-21 03:11:08,916 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-11-21 03:11:08,916 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-11-21 03:11:08,916 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-11-21 03:11:08,916 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-11-21 03:11:08,937 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-9
+2022-11-21 03:11:08,957 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-10
+2022-11-21 03:11:08,977 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-11
+2022-11-21 03:11:08,994 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-12
+2022-11-21 03:11:09,051 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-13
+2022-11-21 03:11:09,074 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-14
+2022-11-21 03:11:09,097 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-15
+2022-11-21 03:11:09,120 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-16
+2022-11-21 03:11:09,145 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-17
+2022-11-21 03:11:09,163 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-18
+2022-11-21 03:11:09,184 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-11-21 03:11:09,184 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-19
+2022-11-21 03:11:09,207 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-20
+2022-11-21 03:11:09,218 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-11-21 03:11:09,218 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-11-21 03:11:09,231 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-21
+2022-11-21 03:11:09,255 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-22
+2022-11-21 03:11:09,282 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-23
+2022-11-21 03:11:09,306 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-24
+2022-11-21 03:11:09,329 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-25
+2022-11-21 03:11:09,335 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-26
+2022-11-21 03:11:09,358 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-27
+2022-11-21 03:11:09,387 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-28
+2022-11-21 03:11:09,409 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-29
+2022-11-21 03:11:09,434 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-30
+2022-11-21 03:11:09,467 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-31
+2022-11-21 03:11:09,484 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-32
+2022-11-21 03:11:09,519 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-33
+2022-11-21 03:11:09,532 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-11-21 03:11:09,538 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-34
+2022-11-21 03:11:09,559 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-35
+2022-11-21 03:11:09,561 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-11-21 03:11:09,561 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-11-21 03:11:09,589 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-36
+2022-11-21 03:11:09,611 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-37
+2022-11-21 03:11:09,633 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-38
+2022-11-21 03:11:09,662 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-39
+2022-11-21 03:11:09,684 INFO o.a.j.t.JMeterThread: Thread started: 執行緒群組 1-40
+2022-11-21 03:11:30,232 INFO o.a.j.r.Summariser: summary +    120 in 00:00:22 =    5.5/s Avg:  6023 Min:  2718 Max: 10225 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2022-11-21 03:11:31,338 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-13
+2022-11-21 03:11:31,338 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-13
+2022-11-21 03:11:33,310 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-35
+2022-11-21 03:11:33,310 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-35
+2022-11-21 03:11:33,513 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-31
+2022-11-21 03:11:33,513 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-31
+2022-11-21 03:11:33,807 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-11
+2022-11-21 03:11:33,807 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-11
+2022-11-21 03:11:34,323 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-34
+2022-11-21 03:11:34,323 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-34
+2022-11-21 03:11:34,423 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-7
+2022-11-21 03:11:34,423 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-7
+2022-11-21 03:11:36,212 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-38
+2022-11-21 03:11:36,213 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-38
+2022-11-21 03:11:36,610 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-16
+2022-11-21 03:11:36,610 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-16
+2022-11-21 03:11:37,612 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-23
+2022-11-21 03:11:37,612 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-23
+2022-11-21 03:11:38,117 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-37
+2022-11-21 03:11:38,117 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-37
+2022-11-21 03:11:38,225 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-24
+2022-11-21 03:11:38,225 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-24
+2022-11-21 03:11:38,324 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-27
+2022-11-21 03:11:38,324 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-27
+2022-11-21 03:11:38,329 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-17
+2022-11-21 03:11:38,329 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-17
+2022-11-21 03:11:38,418 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-39
+2022-11-21 03:11:38,418 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-39
+2022-11-21 03:11:38,419 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-21
+2022-11-21 03:11:38,419 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-21
+2022-11-21 03:11:38,508 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-4
+2022-11-21 03:11:38,509 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-4
+2022-11-21 03:11:38,824 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-40
+2022-11-21 03:11:38,824 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-40
+2022-11-21 03:11:38,923 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-8
+2022-11-21 03:11:38,923 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-8
+2022-11-21 03:11:38,926 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-10
+2022-11-21 03:11:38,926 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-10
+2022-11-21 03:11:39,120 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-19
+2022-11-21 03:11:39,120 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-19
+2022-11-21 03:11:39,132 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-32
+2022-11-21 03:11:39,132 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-32
+2022-11-21 03:11:39,217 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-22
+2022-11-21 03:11:39,217 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-22
+2022-11-21 03:11:39,229 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-12
+2022-11-21 03:11:39,229 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-12
+2022-11-21 03:11:39,318 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-28
+2022-11-21 03:11:39,319 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-28
+2022-11-21 03:11:39,625 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-6
+2022-11-21 03:11:39,625 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-6
+2022-11-21 03:11:39,739 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-20
+2022-11-21 03:11:39,739 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-20
+2022-11-21 03:11:40,015 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-29
+2022-11-21 03:11:40,015 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-29
+2022-11-21 03:11:40,237 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-18
+2022-11-21 03:11:40,237 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-18
+2022-11-21 03:11:40,246 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-1
+2022-11-21 03:11:40,247 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-1
+2022-11-21 03:11:40,248 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-30
+2022-11-21 03:11:40,248 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-30
+2022-11-21 03:11:40,329 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-15
+2022-11-21 03:11:40,329 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-15
+2022-11-21 03:11:40,331 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-36
+2022-11-21 03:11:40,331 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-36
+2022-11-21 03:11:40,483 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-2
+2022-11-21 03:11:40,483 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-2
+2022-11-21 03:11:40,528 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-14
+2022-11-21 03:11:40,528 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-14
+2022-11-21 03:11:40,647 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-3
+2022-11-21 03:11:40,647 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-3
+2022-11-21 03:11:40,649 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-5
+2022-11-21 03:11:40,649 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-5
+2022-11-21 03:11:40,835 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-26
+2022-11-21 03:11:40,835 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-26
+2022-11-21 03:11:41,122 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-25
+2022-11-21 03:11:41,123 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-25
+2022-11-21 03:11:41,316 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-33
+2022-11-21 03:11:41,316 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-33
+2022-11-21 03:11:41,669 INFO o.a.j.t.JMeterThread: Thread is done: 執行緒群組 1-9
+2022-11-21 03:11:41,669 INFO o.a.j.t.JMeterThread: Thread finished: 執行緒群組 1-9
+2022-11-21 03:11:41,670 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-11-21 03:11:41,671 INFO o.a.j.r.Summariser: summary +     80 in 00:00:11 =    7.0/s Avg:  5571 Min:   919 Max:  8306 Err:     0 (0.00%) Active: 0 Started: 40 Finished: 40
+2022-11-21 03:11:41,671 INFO o.a.j.r.Summariser: summary =    200 in 00:00:33 =    6.0/s Avg:  5842 Min:   919 Max: 10225 Err:     0 (0.00%)
+2022-11-21 03:11:41,673 INFO o.a.j.JMeter: Generating Dashboard
+2022-11-21 03:11:41,673 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-11-21 03:11:41,689 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-11-21 03:11:42,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-11-21 03:11:42,000 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-11-21 03:11:42,007 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-11-21 03:11:42,008 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-11-21 03:11:42,017 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-11-21 03:11:42,029 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-11-21 03:11:42,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-11-21 03:11:42,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-11-21 03:11:42,087 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-11-21 03:11:42,088 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-11-21 03:11:42,088 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-11-21 03:11:42,089 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-11-21 03:11:42,118 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-11-21 03:11:42,119 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1400 samples
+2022-11-21 03:11:42,119 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-11-21 03:11:42,119 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-11-21 03:11:42,120 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-11-21 03:11:42,121 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-11-21 03:11:42,122 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-11-21 03:11:42,123 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-11-21 03:11:42,129 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-11-21 03:11:42,130 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-11-21 03:11:42,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-11-21 03:11:42,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-11-21 03:11:42,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3000 samples
+2022-11-21 03:11:42,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 600 samples
+2022-11-21 03:11:42,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 200 samples
+2022-11-21 03:11:42,133 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 200 samples produced in 324ms on channel 0
+2022-11-21 03:11:42,133 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-11-21 03:11:42,796 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-11-21 03:11:42,797 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-11-21 03:11:42,799 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-11-21 03:11:42,800 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-11-21 03:11:42,800 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /root/scan/jmeter/docker-jmeter/report/statistics.json
+2022-11-21 03:11:42,963 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-11-21 03:11:42,970 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /root/scan/jmeter/docker-jmeter/report
+2022-11-21 03:11:43,351 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /root/scan/jmeter/docker-jmeter/report, creating folder structure
+2022-11-21 03:11:43,365 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/apache-jmeter-5.5/bin/report-template' to '/root/scan/jmeter/docker-jmeter/report', got message: /root/scan/jmeter/docker-jmeter/report, found non empty folder with following content [/root/scan/jmeter/docker-jmeter/report/statistics.json], will be ignored
+2022-11-21 03:11:44,302 INFO o.a.j.JMeter: Dashboard generated
